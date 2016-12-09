@@ -51,6 +51,26 @@ To define the stateful function on the class itself simply annotate the desired 
 Stateful functions in Clojure
 -----------------------------
 
+Stateless clojure functions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can use any normal clojure function in ohua. 
+User defined functions as well as library functions can be directly called in the ohua EDSL.
+
+.. warning:: As of yet there is no support for lambdas
+
+    As an example, this does not work:
+    ::
+
+        (ohua
+          (let [x (accept socket)
+                lam (fn [y] ( ... x))]
+            ..)
+
+
+Stateful clojure functions 
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Stateful functions in Clojure are simply Clojure functions, which have been annotated with the metadata ``:init-state``.
 This ``:init-state`` metadata contains a Clojure expression which initializes the state for the stateful function.
 This can be any Clojure expression and it may produce any Clojure data structure.
