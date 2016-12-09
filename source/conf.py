@@ -97,12 +97,14 @@ exclude_patterns = []
 # add_module_names = True
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
-# output. They are ignored by default.
+# output. They are ignored by default.  
 #
 # show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+
+highlight_language = 'clojure'
 
 # A list of ignored prefixes for module index sorting.
 # modindex_common_prefix = []
