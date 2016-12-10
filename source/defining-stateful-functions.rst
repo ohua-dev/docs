@@ -6,7 +6,7 @@ In theory however any language can define a stateful function, so long as it cre
 
 .. _sfn-java:
 
-Stateful functions with java
+Stateful functions with Java
 ----------------------------
 
 Defining stateful functions in Java is very simple.
@@ -51,7 +51,7 @@ To define the stateful function on the class itself simply annotate the desired 
 Stateful functions in Clojure
 -----------------------------
 
-Stateless clojure functions
+Stateless Clojure functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can use any normal clojure function in ohua. 
@@ -68,7 +68,7 @@ User defined functions as well as library functions can be directly called in th
             ..)
 
 
-Stateful clojure functions 
+Stateful Clojure functions 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Stateful functions in Clojure are simply Clojure functions, which have been annotated with the metadata ``:init-state``.
