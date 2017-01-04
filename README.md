@@ -44,7 +44,7 @@ For instance in the following code:
 
 
 (deftest t
-  (let [code ; Because of this quote the we need the fixture
+  (let [code ; Because of this quote we need the fixture
              '(com.ohua.lang/ohua
                 (let [input (accept)
                       algo-result ((com.ohua.lang/algo my-anon-algo [] (read)))]
