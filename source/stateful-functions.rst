@@ -9,7 +9,7 @@ An example:
 
 .. todo:: Better example?
 
-.. code:: Java
+.. code-block:: Java
 
     public class IntegerAccumulator {
         private int counter = 0;
