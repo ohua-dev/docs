@@ -11,7 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   defining-stateful-functions
    stateful-functions
    importing
 
