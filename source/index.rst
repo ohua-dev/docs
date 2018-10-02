@@ -13,6 +13,10 @@ Contents:
 
    stateful-functions
    importing
+   ohuac
+   frontend
+   algorithms
+   project-organisation
 
 
 
@@ -22,4 +26,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
