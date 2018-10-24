@@ -9,7 +9,7 @@ Welcome to ohua's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    stateful-functions
    importing
@@ -17,6 +17,7 @@ Contents:
    frontend
    algorithms
    project-organisation
+   compiler-internals/index
 
 
 
