@@ -29,10 +29,14 @@ An example:
 
 .. code-block:: ocaml
 
-   let x (* direct assignment *)
+   let (x) (* target bindings *)
                = some.package/sf (* function ref *)
                  <0> (* call site id *)
                  (a, b, c) (* arguments *) in
-   let y = dataflow other.package/a-dataflow-fn<1>() [a] (* context arg (optional) *) in
-   let (z, q) (* destructure assignment *) = package/anotherSf<2>($1 (* env ref *)) in
+   let (y, z) = dataflow other.package/a-dataflow-fn<1>() [a] (* context arg (optional) *) in
    x
+
+In addition to local variables, such as ``a``, ``b``, ``myVar`` the arguments to
+functions can also be numeric literals ``1``, ``0``, ``-4`` or references to
+environment expressions. The latter are positive numbers prefixed with ``$``,
+i.e. ``$1``, ``$100``.
