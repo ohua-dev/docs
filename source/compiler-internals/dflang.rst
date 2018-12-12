@@ -34,7 +34,7 @@ An example:
                  <0> (* call site id *)
                  [s] (* state source (optional) *)
                  (a, b, c) (* arguments *) in
-   let (y, z) = dataflow other.package/a-dataflow-fn<1>() in
+   let (y, z) = dataflow other.package/a_dataflow_fn<1>() in
    x
 .. _target bindings:
 
